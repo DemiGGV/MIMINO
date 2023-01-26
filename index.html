@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href=".css/style.css">
     <title>MIMINO</title>
 </head>
@@ -14,7 +15,11 @@
     <!-- Header section -->
     <header>
         <nav>
-            <a href="./index.html" class="logo" lang="en">mimino</a>
+            <a href="./index.html" class="logo" lang="en">
+                <svg class="icon" width="127" height="43">
+                    <use href="./images/symbol-defs.svg#icon-MIMIHO"></use>
+                </svg>
+            </a>
             <ul class="list rest-menu">
                 <li class="item menu-list">
                     <a href="#" class="link rest-link">ресторан</a>
@@ -33,16 +38,27 @@
             </ul>
             <ul class="list socials-menu">
                 <li class="item menu-list">
-                    <a href="#" class="link insta-link" aria-label="instagramm" target="_blank"
-                        rel="noreferrer noopener"></a>
+                    <a href="#" class="link insta-link" aria-label="instagram" target="_blank"
+                        rel="noreferrer noopener">
+                        <svg class="icon" width="24" height="24">
+                            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
                 </li>
                 <li class="item menu-list">
-                    <a href="#" class="link fb-link" aria-label="facebook" target="_blank"
-                        rel="noreferrer noopener"></a>
+                    <a href="#" class="link fb-link" aria-label="facebook" target="_blank" rel="noreferrer noopener">
+                        <svg class="icon" width="24" height="24">
+                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
                 </li>
                 <li class="item menu-list">
-                    <a href="#" class="link twit-link" aria-label="twitter" target="_blank"
-                        rel="noreferrer noopener"></a>
+                    <a href="#" class="link telegram-link" aria-label="telegram" target="_blank"
+                        rel="noreferrer noopener">
+                        <svg class="icon" width="24" height="24">
+                            <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                        </svg>
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -60,10 +76,10 @@
                 </address>
                 <ul class="list book-list">
                     <li class="book-table-item">
-                        <button type="button" class="book-table-btn">Забронювати столик</button>
+                        <button type="button" class="btn book-table-btn">Забронювати столик</button>
                     </li>
                     <li class="book-room-item">
-                        <button type="button" class="book-room-btn">Забронювати номер</button>
+                        <button type="button" class="btn book-room-btn">Забронювати номер</button>
                     </li>
                 </ul>
             </div>
@@ -72,42 +88,246 @@
         <!-- Restaurant gallery section -->
         <section class="section rest-gallery">
             <div class="container">
-
+                <p class="sub-title">Amet minim mollit non</p>
+                <h2 class="section-title">MIMIHO</h2>
+                <p class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <img src="" alt="Restaurant interior foto" width="460">
+                <img src="" alt="Restaurant interior foto" width="460">
+                <p class="text-accent">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <ul class="list rest section-slider">
+                    <li class="slider-item"><img src="" alt="Restaurant interior" width="254" class="img rest-slider">
+                    </li>
+                    <li class="slider-item"><img src="" alt="Restaurant interior" width="254" class="img rest-slider">
+                    </li>
+                </ul>
+                <ul class="list rest slider-controls">
+                    <li class="slider-item">
+                        <button class="btn slider-btn slider-btn-prev disable" type="button">
+                            <svg class="icon" width="32" height="32">
+                                <use href="./images/symbol-defs.svg#icon-arrow-left"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="slider-item">
+                        <button class="btn slider-btn slider-btn-next" type="button">
+                            <svg class="icon" width="32" height="32">
+                                <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
             </div>
         </section>
 
         <!-- Restaurant booking section -->
         <section class="section rest-product">
             <div class="container">
-
+                <ul class="list book-list">
+                    <li class="book-table-item">
+                        <button type="button" class="btn book-table-btn">Забронювати столик</button>
+                    </li>
+                    <li class="rest-price-list-item">
+                        <button type="button" class="btn rest-price-list-btn">Переглянути меню</button>
+                    </li>
+                </ul>
+                <h2 class="section-title white">MIMIHO</h2>
+                <h3 class="under-title white">Ресторан</h3>
+                <p class="text white">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit.
+                </p>
+                <ul class="list section-slider">
+                    <li class="slider-item">
+                        <img src="" alt="Hotel interior" width="270" class="img hotel-slider">
+                    </li>
+                    <li class="slider-item">
+                        <img src="" alt="Hotel interior" width="162" class="img hotel-slider">
+                    </li>
+                    <li class="slider-item">
+                        <img src="" alt="Hotel interior" width="270" class="img hotel-slider">
+                    </li>
+                </ul>
+                <ul class="list slider-controls white">
+                    <li class="slider-item">
+                        <button class="btn slider-btn slider-btn-prev disable" type="button">
+                            <svg class="icon" width="32" height="32">
+                                <use href="./images/symbol-defs.svg#icon-arrow-left"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="slider-item">
+                        <button class="btn slider-btn slider-btn-next" type="button">
+                            <svg class="icon" width="32" height="32">
+                                <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
             </div>
         </section>
 
         <!-- Hotel gallery section -->
         <section class="section hotel-gallery">
             <div class="container">
-
+                <p class="sub-title">Amet minim mollit non</p>
+                <h2 class="section-title">MIMIHO</h2>
+                <p class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <img src="" alt="Hotel interior foto" width="460">
+                <img src="" alt="Hotel interior foto" width="460">
+                <p class="text-accent">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <ul class="list section-slider">
+                    <li><img src="" alt="Hotel interior" class="img hotel-slider"></li>
+                    <li><img src="" alt="Hotel interior" class="img hotel-slider"></li>
+                </ul>
+                <ul class="list slider-controls">
+                    <li class="slider-item">
+                        <button class="btn slider-btn slider-btn-prev disable" type="button">
+                            <svg class="icon" width="32" height="32">
+                                <use href="./images/symbol-defs.svg#icon-arrow-left"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="slider-item">
+                        <button class="btn slider-btn slider-btn-next" type="button">
+                            <svg class="icon" width="32" height="32">
+                                <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
             </div>
         </section>
 
         <!-- Hotel booking section -->
         <section class="section hotel-product">
             <div class="container">
-
+                <ul class="list book-list">
+                    <li class="book-room-btn">
+                        <button type="button" class="btn book-room-btn">Забронювати столик</button>
+                    </li>
+                    <li class="hotel-price-list-item">
+                        <button type="button" class="btn hotel-price-list-btn">Переглянути меню</button>
+                    </li>
+                </ul>
+                <h2 class="section-title white">MIMIHO</h2>
+                <h3 class="under-title white">Готель</h3>
+                <p class="text white">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit.
+                </p>
+                <ul class="list section-slider">
+                    <li class="slider-item">
+                        <img src="" alt="Hotel interior" width="270" class="img hotel-slider">
+                    </li>
+                    <li class="slider-item">
+                        <img src="" alt="Hotel interior" width="162" class="img hotel-slider">
+                    </li>
+                    <li class="slider-item">
+                        <img src="" alt="Hotel interior" width="270" class="img hotel-slider">
+                    </li>
+                </ul>
+                <ul class="list slider-controls white">
+                    <li class="slider-item">
+                        <button class="btn slider-btn slider-btn-prev disable" type="button">
+                            <svg class="icon" width="32" height="32">
+                                <use href="./images/symbol-defs.svg#icon-arrow-left"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="slider-item">
+                        <button class="btn slider-btn slider-btn-next" type="button">
+                            <svg class="icon" width="32" height="32">
+                                <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
             </div>
         </section>
 
         <!-- Contacts section -->
         <section class="section contacts">
             <div class="container">
-
+                <h2 class="section-title">MIMIHO</h2>
+                <h3 class="under-title">Ресторанно-готельний комплекс</h3>
+                <ul class="list contacts-list">
+                    <li class="item contacts-item">
+                        <p class="contacts-title">Ресторан</p>
+                        <a href="tel:+380955559533" class="contact rest-tel">095 555 95 33</a>
+                    </li>
+                    <li class="item contacts-item">
+                        <p class="contacts-title">Готель</p>
+                        <div class="rest-tel-contacts">
+                            <a href="tel:+380668491089" class="contact rest-tel-1">066 849 10 89</a>
+                            <a href="tel:+380672758540" class="contact rest-tel-2">067 275 85 40</a>
+                        </div>
+                    </li>
+                </ul>
+                <img src="#" alt="Google map link" width="634" class="img map-location">
             </div>
         </section>
 
     </main>
 
     <!-- Footer section -->
-    <footer></footer>
+    <footer>
+        <div class="column-1">
+            <a href="./index.html" class="logo" lang="en">mimino</a>
+        </div>
+        <div class="column-2">
+            <nav class="footer-menu">
+                <ul class="list rest-menu">
+                    <li class="item menu-list">
+                        <a href="#" class="link">Головна</a>
+                    </li>
+                    <li class="item menu-list">
+                        <a href="#" class="link rest-link">Ресторан</a>
+                    </li>
+                    <li class="item menu-list">
+                        <a href="#" class="link hotel-link">готель</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="column-3">
+            <ul class="list socials-menu">
+                <li class="item menu-list">
+                    <a href="#" class="link telegram-link" aria-label="telegram" target="_blank"
+                        rel="noreferrer noopener">
+                        <span class="social-text" lang="en">telegram</span>
+                        <svg class="icon" width="24" height="24">
+                            <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="item menu-list">
+                    <a href="#" class="link fb-link" aria-label="facebook" target="_blank" rel="noreferrer noopener">
+                        <span class="social-text" lang="en">facebook</span>
+                        <svg class="icon" width="24" height="24">
+                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="item menu-list">
+                    <a href="#" class="link insta-link" aria-label="instagram" target="_blank"
+                        rel="noreferrer noopener">
+                        <span class="social-text" lang="en">instagram</span>
+                        <svg class="icon" width="24" height="24">
+                            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 
