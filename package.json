@@ -2,14 +2,14 @@
   "name": "mimino",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://DemiGGV.github.io/mimino-team",
+  "homepage": "https://DemiGGV.github.io/mimino",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /mimino/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DemiGGV/mimino-team.git"
+    "url": "git+https://github.com/DemiGGV/mimino.git"
   },
   "keywords": [],
   "author": "Heorhii Honcharov <0019@ukr.net>",
