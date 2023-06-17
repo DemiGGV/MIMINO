@@ -2,20 +2,20 @@
   "name": "mimino",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://DemiGGV.github.io/mimino",
+  "homepage": "https://DemiGGV.github.io/MIMINO",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /mimino/"
+    "build": "parcel build src/*.html --public-url /MIMINO/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DemiGGV/mimino.git"
+    "url": "git+https://github.com/DemiGGV/MIMINO.git"
   },
   "keywords": [],
   "author": "Heorhii Honcharov <0019@ukr.net>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DemiGGV/mimino/issues"
+    "url": "https://github.com/DemiGGV/MIMINO/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
